@@ -5,3 +5,4 @@ p,ul,td,th {color: blue;}
 .evenrow {color: chartreuse;}
 h1 {font-size: 3em;}
 h2 {font-size: 1em;}
+ a:hover {color: #00ff00;}
