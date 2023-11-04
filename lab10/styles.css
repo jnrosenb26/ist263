@@ -10,14 +10,17 @@ nav{
 }
 nav a{color: #8CABFF;}
 nav a:hover{background-color: #FF6969;}
-@media only screen and (max-width:768px){
-    nav a {width: 100%;
+@media only screen and (max-width: 768px) {
+    nav a {
+        width: 100%;
         padding: 10px;
-        
-    
+        display: block; 
+         
     }
-    span {display:none;}
-    .row2 {flex-wrap: wrap;}
-    
+    span {
+        display: none;
+    }
+    .row2 {
+        flex-wrap: wrap;
+    }
 }
-

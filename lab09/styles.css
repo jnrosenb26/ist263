@@ -10,3 +10,6 @@ nav{
 }
 nav a{color: #8CABFF;}
 nav a:hover{background-color: #FF6969;}
+@media only screen and (max-width:768px){
+    nav a {width: 100%;}
+}
