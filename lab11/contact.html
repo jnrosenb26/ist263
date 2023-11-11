@@ -92,17 +92,26 @@
     <div class="row2">
 <h2>Form</h2>
         <div class="form">
-        <form action="https://formspree.io/f/xknlqqzz" method="post">
-            <label for="favoritesport">Favorite Sport</label><br>
-                <input type="text" id="favoritesport" name="favoritesport"><br>
-                <input type="radio" id="soccer" name="soccer" value="soccer">
-                <label>soccer</label><br>
-                <input type="radio" id="football" name="football" value="football">
-                <label>football</label><br>
-                <label>Write comments about the sports below</label><br>
-                <textarea id="comments" name="comments" rows="3" cols="60"></textarea> <br>
-                <input type="submit" value="send form">
-        </form>
+            <form action="https://formspree.io/f/xknlqqzz" method="post">
+
+                
+                    <legend>Favorite Sport</legend>
+                    
+                    <label for="favoritesport">Choose your favorite sport:</label><br>
+                    
+                    <input type="radio" id="soccer" name="favoritesport" value="soccer">
+                    <label for="soccer">Soccer</label><br>
+                    
+                    <input type="radio" id="football" name="favoritesport" value="football">
+                    <label for="football">Football</label><br>
+                    
+                    <label for="comments">Write comments about the sports below</label><br>
+                    
+                    <textarea id="comments" name="comments" rows="3" cols="60" aria-describedby="comments-description"></textarea> <br>
+                
+        
+                <input type="submit" value="Send Form">
+            </form>
 
         </div>
        
