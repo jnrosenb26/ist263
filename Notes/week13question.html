@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function rightAnswer () {
+            document.getElementById("right").innerHTML ='<span style="color:green;"> is the correct answer"</span>
+        }
+    </script>
+</head>
+<body>
+    <p>Java and javaScript are the same thing</p>
+    <p id="wrong">True</p>
+    <p id="right" onclick="rightAnswer()">False</p>
+</body>
+</html>
