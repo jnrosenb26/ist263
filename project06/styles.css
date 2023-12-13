@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif; /* Universal font */
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    font-size: 60px; /* Consistent heading size */
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* Navigation bar styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black; /* Consistent nav background */
+    padding: 10px;
+}
+
+nav a {
+    color: white; /* Consistent link color */
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav span {
+    color: white; /* Consistent separator color */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px; /* Smaller heading for mobile */
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a, nav span {
+        margin: 5px;
+    }
+}
