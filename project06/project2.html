@@ -3,75 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giants schedule for the 2023-2024</title>
+    <title>Giants Schedule for the 2023-2024</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: white;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-            padding: 10px;
         }
 
         nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
+            margin-right: 10px;
         }
 
-        nav span {
-            color: #ccc;
-            margin: 5px;
-        }
-        
-        ol {
-            width: 600px;
-            max-width: 100%;
-            border: 4px solid #3498db;
-            border-radius: 8px;
-            margin: 20px auto;
-            padding: 10px;
-            position: relative;
-        }
-        
-        li {
-            margin: 10px;
-            padding: 10px;
-            border-bottom: 1px solid #3498db;
-            cursor: pointer;
-            transition: background-color 0.3s;
+        .content {
+            display: flex;
+            justify-content: space-between;
         }
 
-        li:hover {
-            background-color: blue;
+        table {
+            width: 60%;
+            border-collapse: collapse;
         }
 
-        .img1, .img2 {
-            position: absolute;
-            max-width: 25%;
+        table, th, td {
+            border: 1px solid black;
         }
 
-        .img1 {
-            right: 50%; /* Adjust for half the width of the list plus some margin */
-            top: 400px;
+        td, th {
+            padding: 8px;
+            text-align: left;
         }
 
-        .img2 {
-            left: 50%;
-            top: 400px;
+        table tr:hover {
+            background-color: #f2f2f2;
         }
 
+        .images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .images img {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -83,7 +58,8 @@
         <a href="https://jnrosenb26.github.io/ist263/project06/project3.html" title="New York Giants news and Injuries Page">News</a>
     </nav>
     <h1>Schedule</h1>
-    <ol>
+    <div class="content">
+        <table>
         <li>Sep 10, 2023 Vs Dallas L 40-0 Record 0-1</li>
         <li>Sep 17, 2023 @ Arizona W 31-28 Record 1-1</li>
         <li>Sep 21, 2023 @ San Francisco L 30-12 Record 1-2</li>
@@ -103,9 +79,11 @@
         <li>Dec 31, 2023, vs L.A. Rams 1:00 pm, FOX, MetLife Stadium</li>
         <li>Jan 7, 2024, vs Philadelphia, TBA, MetLife Stadium</li>
 
-
-    </ol>
-    <img class="img1" src="../projectimages/pic1.png" alt="New York Giants players standing next to each other on sideline">
-    <img class="img2" src="../projectimages/pic4.png" alt="New York Giants in a huddle">
+        </table>
+        <div class="images">
+            <img src="../projectimages/pic1.png" alt="New York Giants players standing next to each other on sideline">
+            <img src="../projectimages/pic4.png" alt="New York Giants in a huddle">
+        </div>
+    </div>
 </body>
 </html>
