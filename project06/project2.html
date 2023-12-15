@@ -10,31 +10,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
     <style>
-        
-       
         body {
             margin: 0;
-            padding: 10px;
+            padding: 0;
             border-left: 80px solid darkgray;
             border-right: 80px solid darkgray;
             min-height: 100vh;
             font-family: 'Rethink Sans', sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px 0;
         }
 
         .content {
             display: flex;
             justify-content: space-between;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
         }
+
         ol {
             flex: 7;
             padding-left: 20px;
-            border: 3px solid black; 
-            border-radius: 10px; 
-            list-style-type: decimal; 
+            border: 3px solid black;
+            border-radius: 10px;
+            list-style-type: decimal;
+            margin: 0;
         }
+
         ol li {
             margin-bottom: 10px;
+            padding: 10px;
             list-style-type: none;
+            border-bottom: 1px solid #ddd;
         }
 
         .images {
@@ -48,10 +62,9 @@
             margin-bottom: 20px;
         }
 
-        
         ol li:hover {
-            background-color: blue; 
-            color: white; 
+            background-color: blue;
+            color: white;
             cursor: pointer;
         }
     </style>
@@ -85,12 +98,11 @@
             <li>Dec 25, 2023 @ Philadelphia 4:30 pm, FOX, Lincoln Financial Field</li>
             <li>Dec 31, 2023, vs L.A. Rams 1:00 pm, FOX, MetLife Stadium</li>
             <li>Jan 7, 2024, vs Philadelphia, TBA, MetLife Stadium</li>
-    
-    
+
         </ol>
         <div class="images">
             <img src="../projectimages/pic1.png" alt="New York Giants players standing next to each other on sideline">
-            <img src="../projectimages/pic4.png" alt="New York Giants in a huddle">
+            <img src="../projectimages/giantspractice.jpeg" alt="New York Giants in a huddle">
         </div>
     </div>
 </body>
