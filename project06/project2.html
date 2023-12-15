@@ -15,6 +15,7 @@
         padding: 0;
         font-family: 'Rethink Sans', sans-serif;
         background-color: #f0f0f0; /* Background color similar to the previous page */
+        display: flex; /* Use flex to create a layout */
     }
 
     h1 {
@@ -22,18 +23,22 @@
         padding: 20px 0;
         background-color: blue; /* Heading background color */
         color: white; /* Heading text color */
+        flex: 1; /* Take up 1 part of the available space */
     }
 
     .content {
+        flex: 2; /* Take up 2 parts of the available space */
         max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
         border: 1px solid #c5b8b8;
         background-color: white;
+        display: flex; /* Use flex to align the list and images */
+        justify-content: space-between; /* Create space between list and images */
     }
 
     ol {
-        flex: 7;
+        flex: 1; /* Take up 1 part of the available space */
         padding-left: 20px;
         border: 3px solid black;
         border-radius: 10px;
@@ -49,9 +54,11 @@
     }
 
     .images {
-        flex: 3;
+        flex: 1; /* Take up 1 part of the available space */
         display: flex;
         flex-direction: column;
+        justify-content: center; /* Center images vertically */
+        align-items: center; /* Center images horizontally */
         border: 1px solid #c5b8b8;
     }
 
@@ -64,16 +71,12 @@
         background-color: blue;
         color: white;
         cursor: pointer;
-        }
-
-
+    }
 
     nav a:hover {
         background-color: blue;
         color: white;
-        }
-
-    
+    }
     </style>
 </head>
 <body>
