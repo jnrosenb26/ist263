@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    font-size: 60px; /* Consistent heading size */
+    font-size: 60px;
     text-align: center;
     margin-top: 70px;
 }
@@ -31,7 +31,7 @@ h1 {
     border-radius: 5px;
     }
 
-/* Navigation bar styling */
+
 nav {
     background-color: #333;
     color: white;
@@ -42,20 +42,31 @@ nav a {
     color: white;
     text-decoration: none;
 }
-/* Responsive Design */
+
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 40px; /* Smaller heading for mobile */
+        font-size: 40px;
+        margin-top: 20px; 
+        margin-bottom: 10px; 
+    }
     }
 
     nav {
-        flex-direction: column;
-        align-items: center;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        display: block; 
     }
 
     nav a, nav span {
         margin: 5px;
-    }
-    
+        }
 
-}
+    .image a {
+            max-width: 80%; 
+        }
+
+    .imagetext {
+            font-size: 16px;
+        }
+    
