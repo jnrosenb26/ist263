@@ -10,58 +10,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Rethink Sans', sans-serif;
-            
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Rethink Sans', sans-serif;
+        background-color: #f0f0f0; /* Background color similar to the previous page */
+    }
+
+    h1 {
+        text-align: center;
+        padding: 20px 0;
+        background-color: blue; /* Heading background color */
+        color: white; /* Heading text color */
+    }
+
+    .content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #c5b8b8;
+        background-color: white;
+    }
+
+    ol {
+        flex: 7;
+        padding-left: 20px;
+        border: 3px solid black;
+        border-radius: 10px;
+        list-style-type: decimal;
+        margin: 0;
+    }
+
+    ol li {
+        margin-bottom: 10px;
+        padding: 10px;
+        list-style-type: none;
+        border-bottom: 1px solid #c5b8b8;
+    }
+
+    .images {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #c5b8b8;
+    }
+
+    .images img {
+        max-width: 100%;
+        margin-bottom: 20px; /* Adjust margin for images */
+    }
+
+    ol li:hover {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
         }
 
-        h1 {
-            text-align: center;
-            padding: 20px 0;
-        }
 
-        .content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #c5b8b8;
-            background-color: white;
-        }
 
-        ol {
-            flex: 7;
-            padding-left: 20px;
-            border: 3px solid black;
-            border-radius: 10px;
-            list-style-type: decimal;
-            margin: 0;
-        }
-
-        ol li {
-            margin-bottom: 10px;
-            padding: 10px;
-            list-style-type: none;
-            border-bottom: 1px solid #c5b8b8;
-        }
-
-        .images {
-            flex: 3;
-            display: flex;
-            flex-direction: column;
-            border: 1px solid #c5b8b8; /* Add border here */
-        }
-
-        .images img {
-            max-width: 100%;
-            margin-bottom: 80px;
-        }
-
-        ol li:hover {
-            background-color: blue;
-            color: white;
-            cursor: pointer;
+    nav a:hover {
+        background-color: blue;
+        color: white;
         }
 
     
