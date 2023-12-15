@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
     <style>
         body {
-            
-            min-height: 100vh;
+            margin: 0;
+            padding: 0;
             font-family: 'Rethink Sans', sans-serif;
             background-color: white;
         }
@@ -29,7 +29,7 @@
             margin: 0 auto;
             padding: 20px;
             background-color: white;
-            border: 1px solid #f0f0f0;
+            border: 1px solid #c5b8b8;
         }
 
         ol {
@@ -44,24 +44,19 @@
         ol li {
             margin-bottom: 10px;
             padding: 10px;
+            list-style-type: none;
             border-bottom: 1px solid #c5b8b8;
         }
 
-        .image-left {
-            flex: 1;
-            margin-right: 10px; 
-            text-align: center; 
-            }
-
-        .image-right {
-            flex: 1;
-            margin-left: 10px; 
-            text-align: center; 
+        .images {
+            flex: 3;
+            display: flex;
+            flex-direction: column;
         }
 
         .images img {
             max-width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 80px;
         }
 
         ol li:hover {
@@ -69,7 +64,7 @@
             color: white;
             cursor: pointer;
         }
-</style>
+    </style>
 </head>
 <body>
     <nav>
@@ -104,12 +99,8 @@
             <li>Jan 7, 2024, vs Philadelphia, TBA, MetLife Stadium</li>
 
         </ol>
-        
-        <div class="image-left">
+        <div class="images">
             <img src="../projectimages/pic1.png" alt="New York Giants players standing next to each other on sideline">
-        </div>
-        
-        <div class="image-right">
             <img src="../projectimages/giantspractice.jpeg" alt="New York Giants in a huddle">
         </div>
     </div>
